@@ -1,0 +1,26 @@
+{
+  "design": "deep_chain_area_opt",
+  "rtl": "rtl_optimized/deep_chain_area_opt.v",
+
+  "area": 9850.697600,
+
+  "cells": 817,
+  "combinational_cells": 497,
+  "sequential_cells": 320,
+  "sequential_area": 6406.144000,
+
+  "wns": 0.00,
+  "tns": 0.00,
+
+  "worst_slack": 3.255,
+
+  "timing_met": true,
+
+  "worst_path": {
+    "startpoint": "a[1] (input port clocked by clk)",
+    "endpoint": "_1033_ (rising edge-triggered flip-flop clocked by clk)",
+    "delay": 6.626,
+    "required_time": 9.882,
+    "arrival_time": 6.626
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "design": "deep_chain_3stage",
+  "rtl": "rtl/deep_chain_3stage.v",
+
+  "area": 8589.488000,
+
+  "cells": 766,
+  "combinational_cells": 510,
+  "sequential_cells": 256,
+  "sequential_area": 5124.915200,
+
+  "wns": 0.00,
+  "tns": 0.00,
+
+  "worst_slack": 3.934,
+
+  "timing_met": true,
+
+  "worst_path": {
+    "startpoint": "_1122_ (rising edge-triggered flip-flop clocked by clk)",
+    "endpoint": "_1184_ (rising edge-triggered flip-flop clocked by clk)",
+    "delay": 5.945,
+    "required_time": 9.878,
+    "arrival_time": 5.945
+  }
+}

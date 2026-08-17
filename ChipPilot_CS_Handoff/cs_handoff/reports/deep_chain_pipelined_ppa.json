@@ -1,0 +1,26 @@
+{
+  "design": "deep_chain_pipelined",
+  "rtl": "rtl_optimized/deep_chain_pipelined.v",
+
+  "area": 9908.252800,
+
+  "cells": 830,
+  "combinational_cells": 510,
+  "sequential_cells": 320,
+  "sequential_area": 6406.144000,
+
+  "wns": 0.00,
+  "tns": 0.00,
+
+  "worst_slack": 3.421,
+
+  "timing_met": true,
+
+  "worst_path": {
+    "startpoint": "_1061_ (rising edge-triggered flip-flop clocked by clk)",
+    "endpoint": "_1123_ (rising edge-triggered flip-flop clocked by clk)",
+    "delay": 6.461,
+    "required_time": 9.882,
+    "arrival_time": 6.461
+  }
+}

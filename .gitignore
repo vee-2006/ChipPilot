@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Environment / secrets
+.env
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Generated output
+*.sdf

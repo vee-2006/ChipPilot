@@ -1,0 +1,1 @@
+module test(input clk, input [31:0] a, input [31:0] b, output reg [31:0] y); always @(posedge clk) y <= a + b; endmodule
